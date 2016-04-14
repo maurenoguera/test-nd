@@ -2,6 +2,8 @@ FROM node:argon
 
 # Create app directory
 RUN mkdir -p /usr/src/app
+#ojo
+RUN mkdir -p /var/jenkins_home/jobs/test/workspace
 WORKDIR /usr/src/app
 
 # Install app dependencies
